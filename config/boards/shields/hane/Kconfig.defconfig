@@ -1,0 +1,16 @@
+if SHIELD_HANE_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Hane"
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
+endif
+
+if SHIELD_HANE_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "Hane Right"
+	
+endif
